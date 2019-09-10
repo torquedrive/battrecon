@@ -62,3 +62,77 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+body {
+	margin: 0;
+	//background: #696969;
+}
+
+.grid-container {
+	max-width: 100%;
+	padding-left:0;
+	padding-right: 0;
+}
+
+.top {
+	color: #fff;
+	background: #006891;
+	max-width: 100%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	text-align: center;
+
+	h1 {
+		font-size: 28px;
+		font-family: Verdana, sans serif;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 22px;
+		font-family: Verdana, sans serif;
+		//font-weight: bold;
+	}
+}
+
+.hero {
+	background: #000;
+	background-image: url("/assets/img/landscape.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 1000px;
+	margin-right: 0;
+	overflow:hidden;
+}
+
+.mcontent {
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.mvideo {
+	padding-top: 30px;
+	color: #fff;
+	//background: #303030;
+	width: 640px;
+	height: 460px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.infobox {
+	background: #fff;
+	border-radius: 10px 10px;
+	border: 5px dotted #ff0000;
+	width: 650px;
+	height: 300px;
+}
+
+.mid-text {
+	color: #ff0000;
+	text-align: center;
+}
