@@ -66,13 +66,18 @@
 
 body {
 	margin: 0;
-	//background: #696969;
+	background: #696969;
 }
 
 .grid-container {
 	max-width: 100%;
 	padding-left:0;
 	padding-right: 0;
+	overflow: hidden;
+}
+
+.top-info {
+	background: #006891;
 }
 
 .top {
@@ -82,7 +87,7 @@ body {
 	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 30px;
+	padding-left: 20px;
 	text-align: center;
 
 	h1 {
@@ -106,12 +111,12 @@ body {
 	background-size: cover;
 	height: 1000px;
 	margin-right: 0;
-	overflow:hidden;
+	//overflow:hidden;
 }
 
 .mcontent {
 	padding-top: 50px;
-	overflow: hidden;
+	//overflow: hidden;
 }
 
 .mvideo {
@@ -121,7 +126,7 @@ body {
 	width: 640px;
 	height: 460px;
 	text-align: center;
-	overflow: hidden;
+	//overflow: hidden;
 }
 
 .infobox {
