@@ -67,6 +67,7 @@
 body {
 	margin: 0;
 	background: #232326;
+	margin-bottom: 40px;
 }
 
 .grid-container {
@@ -109,9 +110,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-size: cover;
 	height: 1000px;
-	padding-left: 40px;
-	margin-left: 30px;
+	//padding-left: 40px;
+	//margin-left: 30px;
 	//margin-right: 0;
 	//overflow:hidden;
 }
@@ -175,12 +177,16 @@ body {
 }
 
 .cta {
-	font-size: 28px;
+	font-size: 34px;
 	font-weight: bold;
 	text-align: center;
 	border-radius: 5px 5px;
 	color: #ff0000;
 	background: yellow;
+
+	a {
+		color: #ff0000;
+	}
 }
 
 .mid-text {
@@ -203,6 +209,10 @@ body {
 		}
 }
 
+.large-offset-3 {
+	margin-left: 31%;
+}
+
 .four-up-feature {
 	color: #fff;
 	background: #232326;
@@ -216,13 +226,26 @@ body {
 			font-weight: bold;
 		}
 
+		h4 {
+			font-size: 38px;
+			font-weight: bold;
+		}
   }
+
+	h4 {
+		font-size: 28px;
+		font-weight: bold;
+	}
 
   .four-up-feature-image {
     margin-bottom: 2rem;
   }
 
   .four-up-feature-text {
+		font-size: 18px;
+		padding-left: 20px;
+		padding-right: 20px;
     margin-bottom: 2rem;
+		text-align: center;
   }
 }
