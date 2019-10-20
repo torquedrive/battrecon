@@ -66,7 +66,7 @@
 
 body {
 	margin: 0;
-	background: #696969;
+	background: #4494ea;
 }
 
 .grid-container {
@@ -110,7 +110,9 @@ body {
 	background-position: center;
 	background-size: cover;
 	height: 1000px;
-	margin-right: 0;
+	padding-left: 40px;
+	margin-left: 30px;
+	//margin-right: 0;
 	//overflow:hidden;
 }
 
@@ -124,20 +126,65 @@ body {
 	color: #fff;
 	//background: #303030;
 	width: 640px;
-	height: 460px;
+	height: 450px;
 	text-align: center;
 	//overflow: hidden;
 }
 
 .infobox {
 	background: #fff;
-	border-radius: 10px 10px;
-	border: 5px dotted #ff0000;
-	width: 650px;
-	height: 300px;
+	//border-radius: 10px 10px;
+	border: 1px solid #000000;
+	max-width: 650px;
+	//height: 300px;
+
+	.infoheader {
+		text-align: center;
+		margin-top: 10px;
+		h3 {
+			color: #ff0000;
+			//font-family: Tahoma;
+		}
+	}
+}
+
+.lftlst {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.rgtlst {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+.cta-box {
+	margin-top: 20px;
+	//margin-left: 40px;
+	max-width: 640px;
+}
+
+.infoftr {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.cta {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px 5px;
+	color: #ff0000;
+	background: yellow;
 }
 
 .mid-text {
+	background: #006891;
 	color: #ff0000;
 	text-align: center;
 }
